@@ -17,7 +17,7 @@ const ChatInput = ({ onSend, disabled }) => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         className="flex-grow p-3 rounded-lg bg-input text-foreground border border-border placeholder-muted-foreground focus:outline-none shadow-inner"
-        placeholder="Ask Luka anything..."
+        placeholder="Ask away!"
         disabled={disabled}
       />
       <button
